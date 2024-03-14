@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const connectDB = require("./config/dbconfig");
+const connectDB = require("../config/dbconfig");
 const cors = require('cors');
 
 const authRouter = require("../routes/auth.router");
